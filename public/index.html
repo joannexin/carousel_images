@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>image display</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+    <script src="app.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <button class="column-left" id="next" onClick="getNext()">&#10094;</button>
+
+      <div class="column-center">
+        <div id="frame">
+          <div class="imgs"></div>
+        </div>
+      </div>
+
+      <button class="column-right" id="previous" onClick="getPrevious()">&#10095;</button>
+    <div>
+
+    <div id="addContainer">
+
+      <button id="add" onClick="toggleForm()">Add Image</button>
+
+      <form id="form">
+        <input id='name' placeholder="Name" type="text" />
+        <input id='path' placeholder='URL' type="text" />
+        <button type="submit">Submit!</button>
+      </form>
+    <div>
+
+  </body>
+</html>
