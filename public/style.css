@@ -40,8 +40,8 @@ body {
 }
 
 .column-center{
-  width: 100px;
   display: inline-block;
+  width: 100px;
   margin: 0 20px;
 }
 
